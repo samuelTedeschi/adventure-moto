@@ -1,0 +1,71 @@
+.menu{
+    background: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.contener{
+    display: flex;
+    
+}
+
+.img-moto{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.conteudo{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.titulo{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.nome{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.descricao{
+    margin-bottom: 10px;
+}
+
+.tempo{
+    display: flex;
+}
+
+.tempo-formato{
+    background: gray;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.dia{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+} 
+.hora{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+} 
+.min{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+} 
+.seg {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
