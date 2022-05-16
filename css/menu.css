@@ -1,0 +1,31 @@
+.menu{
+    background-image: url(/img/pexels-sourav-mishra-2747540.jpg);
+    background-size: 1500px;
+    height: 700px;
+}
+
+.titulo-menu{
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    margin-top: 20px;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+nav ul li:hover{
+    color: gray;
+    cursor: pointer;
+}
+
