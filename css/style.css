@@ -1,3 +1,11 @@
+/* Color Theme Swatches in Hex */
+.Fuel-Motorcycles-1-hex { color: #403F3F; }
+.Fuel-Motorcycles-2-hex { color: #0D0C09; }
+.Fuel-Motorcycles-3-hex { color: #F2F2EB; }
+.Fuel-Motorcycles-4-hex { color: #737272; }
+.Fuel-Motorcycles-5-hex { color: #592E15; }
+
+
 body{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Manrope', sans-serif;
@@ -5,7 +13,7 @@ body{
 }
 
 .sobre{
-    background: black;
+    background:  #0D0C09;
     padding-top: 50px;
     padding-bottom: 30px;
 }
@@ -13,7 +21,7 @@ body{
 .sobre-titulo{
     font-family: 'Bebas Neue', cursive;
     font-size: 2.5rem;
-    color: aliceblue;
+    color: #F2F2EB;
     text-align: center;
     padding-bottom: 30px;
 }
@@ -21,10 +29,10 @@ body{
 .sobre-conteudo{
     font-family: 'Manrope', sans-serif;
     font-size: 1.5rem;
-    color: aliceblue;
+    color: #F2F2EB;
     text-align: justify;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .royal{
@@ -46,6 +54,8 @@ body{
 .royal-conteudo{
     font-family: 'Manrope', sans-serif;
     margin-right: 200px;
+    text-justify:inter-word;
+    text-align: justify;
 }
 
 .t100{
@@ -68,4 +78,40 @@ body{
 .t100-conteudo{
     margin-left:200px ;
     font-family: 'Manrope', sans-serif;
+    text-justify:inter-word;
+    text-align: justify;
+}
+
+.titulo-equipamento{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.equipamentos{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.eq{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+
+.eq-case{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.eq-contener{
+   
 }
