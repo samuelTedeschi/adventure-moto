@@ -1,0 +1,40 @@
+.qual-moto{
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.contato{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:400px;
+    margin-right: 400px;
+}
+
+.caixa-texto{
+    padding: 11px;
+}
+
+.botao{
+    margin-top: 10px;
+    padding: 18px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    background: black;
+    color: aliceblue;
+}
+.botao:hover{
+    background: darkslategray;
+    cursor: pointer;
+}

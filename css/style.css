@@ -1,81 +1,71 @@
-.moto-1{
-    display: flex;
-}
-
-.moto-2{
-    display: flex;
-}
-
-.moto-3{
-    display: flex;
-}
-
-.moto-4{
-    display: flex;
-}
-
-
-
-.contener{
-    display: flex;
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Manrope', sans-serif;
     
 }
 
-.img-moto{
-    margin-top: 50px;
-    margin-left: 50px;
+.sobre{
+    background: black;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
-.conteudo{
-    margin-top: 50px;
-    margin-right: 50px;
+.sobre-titulo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.sobre-conteudo{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-align: justify;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
-.titulo{
-    font-size: 3rem;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-.nome-produto{
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-.descricao{
-    margin-bottom: 10px;
-}
-
-.tempo{
+.royal{
     display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 20px;
 }
 
-.tempo-formato{
-    background: gray;
-    padding: 20px;
+.moto-royal{
     margin-left: 20px;
-    margin-top: 30px;
-    font-size: 1rem;
 }
 
-.dia{
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-} 
-.hora{
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-} 
-.min{
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-} 
-.seg {
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 20px;
+.royal-titulo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+}
+
+.royal-conteudo{
+    font-family: 'Manrope', sans-serif;
+    margin-right: 200px;
+}
+
+.t100{
+    display: flex;
+    align-items:center;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+.moto-t100{
+    margin-right: 20px;
+}
+
+.t100-titulo{
+    text-align: end;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+}
+
+.t100-conteudo{
+    margin-left:200px ;
+    font-family: 'Manrope', sans-serif;
 }
