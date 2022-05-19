@@ -39,3 +39,10 @@
     background: darkslategray;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px){
+    .formulario{
+        margin: 10px;
+    }
+
+}

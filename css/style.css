@@ -86,8 +86,8 @@ body{
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .equipamentos{
@@ -113,5 +113,62 @@ body{
 }
 
 .eq-contener{
-   
+   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px){
+    .sobre-conteudo{
+        text-align: justify;
+        text-justify:inter-word;
+        font-size: 1.2rem;
+        margin:10px
+    }
+
+    .royal{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        margin-top: 0;
+    }
+
+    .royal-titulo{
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .moto-royal{
+        margin: 0;
+    }
+
+    .royal-conteudo{
+        margin: 10px;
+    }
+
+    .t100{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+
+    .t100-titulo{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .t100-conteudo{
+        margin: 10px;
+    }
+    .equipamentos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .eq{
+        margin-bottom: 50px;
+    }
+
+    .img-moto{
+        width: 400px;
+        height: 400px;
+    }
 }

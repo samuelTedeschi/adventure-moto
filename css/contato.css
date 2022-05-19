@@ -23,5 +23,20 @@
     font-size: 1rem;
     margin-left: 50px;
     color: aliceblue;
+}
 
+@media only screen and (max-width: 600px){
+    .contato{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dados{
+        font-size: 1rem;
+        margin: 10px;
+    }
+
+    .desenvolvedor{
+        margin: 10px;
+    }
 }
