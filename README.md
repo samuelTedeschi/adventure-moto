@@ -1,5 +1,6 @@
 # Adventure Motorcycle
-Web site que recomenda motos e equipamento para uma aventura nas estradas
+Web site que recomenda motos e equipamento para uma aventura nas estradas.<br>
+Projeto feito para eu por em pratica meu conhecimento em HTMl e CSS.
 
 ### link do site:<br>
 https://samueltedeschi.github.io/adventure-moto/
