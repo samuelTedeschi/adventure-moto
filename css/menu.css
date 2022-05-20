@@ -54,10 +54,10 @@ nav ul li a:hover{
         height: 400px;
     }
     .titulo-menu{
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin-bottom:10px;
         position: absolute;
-        margin-left: 10px;
+        margin-left: 20px;
         
     }
 
@@ -69,7 +69,7 @@ nav ul li a:hover{
 
     nav ul li a{
         font-size: 1.5rem;
-        margin:10px;
+        margin:5px;
         
     }
 }
