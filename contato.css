@@ -1,0 +1,41 @@
+.contatos-opiniao{
+    margin-top: 30px;
+    background: black;
+    padding: 10px;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.dados{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.desenvolvedor{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1rem;
+    margin-left: 50px;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 600px){
+    .contato{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dados{
+        font-size: 1rem;
+        margin: 10px;
+    }
+
+    .desenvolvedor{
+        margin: 10px;
+    }
+}

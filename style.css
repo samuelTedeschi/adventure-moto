@@ -1,0 +1,132 @@
+/* Color Theme Swatches in Hex */
+.Fuel-Motorcycles-1-hex { color: #403F3F; }
+.Fuel-Motorcycles-2-hex { color: #0D0C09; }
+.Fuel-Motorcycles-3-hex { color: #F2F2EB; }
+.Fuel-Motorcycles-4-hex { color: #737272; }
+.Fuel-Motorcycles-5-hex { color: #592E15; }
+
+
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+.parallax{
+    background-image: url(../foto-menu.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    background:  #0D0C09;
+    height: 300px;
+}
+
+section h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color: #F2F2EB;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+section  p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.8rem;
+    color: #F2F2EB;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.borda{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+    background-color: #f2f2eb8a;
+    padding-left: 20px;
+}
+.title{
+    margin-top: 20px;
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.title-1{
+    font-size: 1.8rem;
+    color: black;
+    
+}
+.parallax-yamara{
+    background-image: url(../img/yamaha.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax-royal{
+    background-image: url(../img/pexels-harsh-10138605.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-kava{
+    background-image: url(../img/RDUR6236.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    color: #0D0C09;
+}
+
+.titulo-equipamento{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    text-align: center; 
+    padding-top: 30px;
+}
+
+.sub-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.equipamentos{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-left: 40px;
+   margin-right: 40px;
+}
+ 
+
+.eq-contener{
+   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px){
+  
+}

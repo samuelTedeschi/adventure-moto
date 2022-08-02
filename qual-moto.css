@@ -1,0 +1,54 @@
+
+div h3{
+    margin-top: 20px;
+    font-size: 1.5rem;
+   margin-left: 300px;
+    margin-bottom: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.contato{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.formulario{
+    margin-left: 300px;
+}
+
+label{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+}
+
+.caixa-texto{
+   height: 30px;
+   border-radius: 4px;
+   border-style: none;
+   background-color: lightgray;
+}
+
+.botao{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1rem;
+    background: black;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 60px;
+}
+.botao:hover{
+    background: darkslategray;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    .formulario{
+        margin: 10px;
+    }
+
+}
